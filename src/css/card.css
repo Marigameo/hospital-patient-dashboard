@@ -1,0 +1,17 @@
+.card {
+    width: 300px;
+    padding: 1rem;
+    background-color: aliceblue;
+    border: 1px solid;
+    margin: 1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tag {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 5px;
+}

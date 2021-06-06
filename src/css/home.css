@@ -1,0 +1,34 @@
+.container {
+    height: 1200px;
+    width: 100%;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    width: 50%;
+}
+.headerWrapper {
+    display: flex;
+    margin: 1rem;
+}
+.headerbtn {
+    margin: 1rem;
+}
+.btn {
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-top: 1rem;
+}
+.active {
+    background-color: lightgreen;
+}
+.inactive {
+    background-color: rgb(240, 188, 188);
+}
